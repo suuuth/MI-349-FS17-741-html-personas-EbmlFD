@@ -1,0 +1,183 @@
+	
+		body {
+			background-image: url("bg.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-color: #333333;
+		}
+
+		.wrapper {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 50%;
+			height: 100%;
+			background-color: #555;
+		}
+
+		.header {
+			font-family: 'Sofia'; 
+			background: #fff;
+			text-align: center;
+			padding-top: 1px;
+			padding-bottom: 15px;
+			position: relative;
+			top: 0;
+			overflow: hidden;
+			font-weight: 300;
+		}
+
+		.header > h1 {
+			font-size: 60px;
+			margin-bottom: 0;
+			transform: rotate(-10deg);
+		}
+
+		.header > small {
+			font-size: 20px;
+			font-family: 'Times New Roman';
+		}
+
+		.nav {
+			background: #333;
+			height: 30px;
+			text-align: center;
+			padding-top: 10px;
+			color: grey;
+			z-index: 2;
+			overflow: hidden;
+			font-family: 'Times New Roman'; 
+			font-weight: 300;
+			font-size: 16px;
+		}
+
+		.nav > ul {
+			margin-top: 0;
+			list-style: outside none none;
+		}
+
+		.nav > ul > li {
+			display: inline-block;
+		}
+
+		.nav > ul > li > a:link, a:visited {
+			text-decoration: none;
+			color: grey;
+		}
+
+		.nav > ul > li > a:hover {
+			text-decoration: none;
+			color: lightgrey;
+		}
+
+		.bodyWrap {
+			background: #555;
+			min-height: 650px;
+		}
+
+		.body {
+			background: #666;
+			height: 100%;
+			width: 90%;
+			margin: auto;
+			border-radius: 12.5px;
+			overflow: hidden;
+			font-size: 20px;
+			font-family: 'Times New Roman';
+			font-weight: 300;
+		}
+/*#ff4e00*/
+
+		a:link, a:visited {
+			color:rgba(190, 190, 190, 0.884);
+		}
+
+		#home, #pitch, #personas, #similarSites {
+			position: relative;
+			min-height: 250px;
+			width: 90%;
+			margin: auto;
+		}
+
+		#home > h1, #pitch > h1, #personas > h1, #contact > h1, #similarSites > h1 {
+			margin-top: 0;
+			margin-bottom: 0;
+			color: #e7e6e5;
+			font-weight: 300;
+		}
+
+		#home > h3, #home > .row > div > h3, #pitch > h3, #personas > h3, #contact > h3, #similarSites > h3 {
+			color: #a7acb3;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		
+		#home > small, #pitch > small, #personas > small, #similarSites > small, #contact > small {
+			color: #a7acb3;
+			font-size: 16px;
+			font-weight: 300;
+		}
+
+		#home > p, #pitch > p, #personas > p, #similarSites > p, #contact > p {
+			font-weight:300;
+		}
+
+		#home > img {
+			float: right;
+			height: 212px;
+			width: 212px;
+		}
+
+		div.row {
+			display: flex;
+			justify-content: center;
+		}
+
+		div.row > div {
+			display: inline-block;
+			width: 45%;
+			margin: auto;
+		}
+
+		#contact {
+			position: relative;
+			text-align: center;
+			height: 102px;
+			width: 90%;
+			margin: auto;
+		}
+
+		#similarSites > blockquote {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.exitBtn {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			text-align: right;
+		}
+
+		.footer {
+			font-family: 'Sofia';
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: #fff;
+			text-align: center;
+			height: 30px;
+			padding-top: 10px;
+			overflow: hidden;
+		}
+
+		.footer > p {
+			margin-top: -5px;
+			transform: rotate(-10deg);
+		}
